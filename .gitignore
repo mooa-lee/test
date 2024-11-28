@@ -1,7 +1,5 @@
 /*.launch
-/deployment/
 /packages/
-/releases/
 /.mendix-cache/
 /.classpath
 /.project
