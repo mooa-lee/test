@@ -98,7 +98,6 @@ pipeline {
 
 def getAppServers() {
     return [
-        [name: env.APP_NODE1_HOSTNAME, host: env.APP_NODE1_IP, port: env.APP_PORT, containerSuffix: ''],
         [name: env.APP_NODE2_HOSTNAME, host: env.APP_NODE2_IP, port: env.APP_PORT, containerSuffix: '']
     ]
 }
